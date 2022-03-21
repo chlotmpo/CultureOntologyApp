@@ -3,9 +3,6 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>
 
-
-SELECT DISTINCT ?trip WHERE {
-    ?trip rdf:type ex:Trip .
-    ?destination ex:Arrival "Paris"
+DESCRIBE ?musee WHERE {
+    ?musee ex:hasName "musée de la poterie" 
 }
-ORDER BY ?trip

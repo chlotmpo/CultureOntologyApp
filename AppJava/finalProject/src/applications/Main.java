@@ -36,10 +36,10 @@ public class Main {
 		System.out.println("3 - List the name of the trip that have Paris (or any other chosen city) as destination. ");
 		System.out.println("4 - List the name of travellers older than 51 years ");
 		System.out.println("5 - A query that contains at least 2 Optional Graph Patterns");
-		System.out.println("6 - A query that  contains at least 2 alternatives and conjunctions");
-		System.out.println("7 - A query that contains a CONSTRUCT query form ");
+		System.out.println("6 - A query that contains at least 2 alternatives and conjunctions");
+		System.out.println("7 - A query that contains a CONSTRUCT query form");
 		System.out.println("8 - A query that contains a ASK query form");
-		System.out.println("9 - A query that contains a DESCRIBE query form ");
+		System.out.println("9 - A query that contains a DESCRIBE query form");
 		
 
 		System.out.println("Your selected option is : ");
@@ -219,27 +219,99 @@ public class Main {
 				break;
 			case 4 :
 				System.out.println("Option 4 is selected.");
+				System.out.println("List the name of travellers older than 51 years ");
+				query = "PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>\r\n"
+						+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
+						+ "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\r\n"
+						+ "PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>\r\n"
+						+ "\r\n"
+						+ "\r\n"
+						+ "SELECT ?name ?age WHERE {\r\n"
+						+ "    ?traveller rdf:type ex:Traveller .\r\n"
+						+ "    ?traveller ex:Name ?name . \r\n"
+						+ "    ?traveller ex:Age ?age . \r\n"
+						+ "    FILTER (?age>51)\r\n"
+						+ "}";		
+				WriteFile(query);
+				QueryModel();
 				break;
 			case 5 :
 				System.out.println("Option 5 is selected.");
+				System.out.println("A query that contains at least 2 Optional Graph Patterns");
+				query = "";		
+				WriteFile(query);
+				QueryModel();
 				break;
 			case 6 :
 				System.out.println("Option 6 is selected.");
+				System.out.println("A query that contains at least 2 alternatives and conjunctions");
+				query = "PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>\r\n"
+						+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
+						+ "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\r\n"
+						+ "PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>\r\n"
+						+ "\r\n"
+						+ "\r\n"
+						+ "SELECT ?trip WHERE {\r\n"
+						+ "    {?trip ex:Arrival \"Paris\"}\r\n"
+						+ "    UNION\r\n"
+						+ "    {?trip ex:Arrival \"Lille\"}\r\n"
+						+ "}";		
+				WriteFile(query);
+				QueryModel();
 				break;
 			case 7 :
 				System.out.println("Option 7 is selected.");
+				System.out.println("A query that contains a CONSTRUCT query form ");
+				query = "PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>\r\n"
+						+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
+						+ "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\r\n"
+						+ "PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>\r\n"
+						+ "\r\n"
+						+ "\r\n"
+						+ "CONSTRUCT {\r\n"
+						+ "    ?trip rdf:type ex:Trip\r\n"
+						+ "} WHERE {\r\n"
+						+ "    ?trip ex:Departure \"Toulouse\" .\r\n"
+						+ "    ?trip ex:Arrival \"Reims\" .\r\n"
+						+ "    ?trip ex:Duration 230\r\n"
+						+ "}";		
+				WriteFile(query);
+				// TODO : find method to execute this kind of query (CONSTRUCT)
 				break;
 			case 8 :
 				System.out.println("Option 8 is selected.");
+				System.out.println("A query that contains a ASK query form");
+				query = "PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>\r\n"
+						+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
+						+ "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\r\n"
+						+ "PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>\r\n"
+						+ "\r\n"
+						+ "\r\n"
+						+ "ASK {\r\n"
+						+ "    ?traveller ex:Age 18\r\n"
+						+ "}";		
+				WriteFile(query);
+				// TODO : find method to execute this kind of query (ASK)
 				break;
 			case 9 :
 				System.out.println("Option 9 is selected.");
+				System.out.println("A query that contains a DESCRIBE query form");
+				query = "PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>\r\n"
+						+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
+						+ "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\r\n"
+						+ "PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>\r\n"
+						+ "\r\n"
+						+ "DESCRIBE ?musee WHERE {\r\n"
+						+ "    ?musee ex:hasName \"musée de la poterie\" \r\n"
+						+ "}";		
+				WriteFile(query);
+				// TODO : find a method to execute this kind of query (DESCRIBE)
 				break;
 			default :
 				break;
 			}
 		}
-		while(userSelected > 5 || userSelected < 1);
+		while(userSelected > 9 || userSelected < 1);
 		
 	
 		
