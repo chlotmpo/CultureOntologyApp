@@ -19,7 +19,6 @@ This project is written in java and python:
 - Python -> script loads the output.json file just generated and build a map corresponding to the query
 The map is stored in [*map.html*](https://github.com/chlotmpo/CultureOntologyApp/blob/main/Map/map.html)
 
-
 ## :mag: How to use it
 
 + :one: Set up the environment:
@@ -28,10 +27,11 @@ The map is stored in [*map.html*](https://github.com/chlotmpo/CultureOntologyApp
 + :two: Set up path in [JenaEngine.java](https://github.com/chlotmpo/CultureOntologyApp/blob/main/AppJava/finalProject/src/tools/JenaEngine.java):
     - Line 140: ```FileWriter("PATH\TO\ ... Map\outputjena.json");```
     - Line 146: ```Runtime.getRuntime().exec(new String[] {"PATH\TO\python.exe", "PATH\TO\ ... \Map\map.py"});```
-+ Get back to Java IDE and run *main.java* file
-+ Select query in console
-+ Be patient and go to Map folder
-+ open *map.html* and enjoy :smile:
++ :three: Get back to Java IDE and run *main.java* file
++ :four: Select query in console
++ :five: Be patient and go to Map folder
++ :six: Open *map.html* 
++ :seven: Enjoy :smile:
 
 ## :clap: Contributors
 TEMPO Chloé, TRARIEUX Thibaud & THIBAUT Matthieu
