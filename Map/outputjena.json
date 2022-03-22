@@ -1,0 +1,135 @@
+{
+  "head": {
+    "vars": [ "name" , "adress" , "zipcode" , "lat" , "long" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e d'art et d'histoire de l'hÃ´pital Sainte-Anne" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "1 rue Cabanis" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75014" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.830264" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.340376" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e des Plans-reliefs" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "129 rue de Grenelle" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75007" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.858219" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.312885" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e d'art moderne de la ville de Paris" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "11 avenue du PrÃ©sident Wilson" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75116" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.86460322" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.298432342" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e Cernuschi. musÃ©e des arts de l'Asie de la ville de Paris" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "7 avenue VÃ©lasquez" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75008" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.879693" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.312194" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e des monuments franÃ§ais" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "1 place du TrocadÃ©ro" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75016" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.862323" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.281879" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Petit Palais. musÃ©e des beaux-arts de la ville de Paris" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Avenue Winston-Churchill" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75008" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.86609" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.313763" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e de la LibÃ©ration de Paris - musÃ©e du gÃ©nÃ©ral Leclerc - musÃ©e Jean Moulin" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "23 allÃ©e de la 2Ã¨me Division BlindÃ©e" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75015" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.840614" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.319773" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "maison de Balzac" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "47 rue Raynouard" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75016" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.855398" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.280805" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e de la vie romantique" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "16 rue Chaptal" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75009" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.880899" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.333278" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e Cognacq-Jay. musÃ©e du XVIIIe siÃ¨cle de la ville de Paris" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "8 rue ElzÃ©vir" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75003" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.858257" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.361524" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e Bourdelle" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "16 rue Antoine Bourdelle" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75015" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.843017" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.31883" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "maison de Victor Hugo" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "6 place des Vosges" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75004" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.854808" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.366232" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Palais Galliera. musÃ©e de la mode et de la ville de Paris" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "10 avenue Pierre Ier de Serbie" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75116" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.86613681" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.2972485" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e Yves Saint Laurent Paris" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "5 avenue Marceau" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75116" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.873694" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.280339" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e Carnavalet - histoire de Paris" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "23. rue de SÃ©vignÃ©" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75003" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.85699" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.362856" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e du Quai Branly - Jacques Chirac" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "37 quai Branly" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75007" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.861511" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.29771" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e du service de santÃ© des armÃ©es du Val-de-GrÃ¢ce" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "1. place Alphonse Laveran" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75005" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.840814" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.341091" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "musÃ©e Zadkine" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "100 bis rue d'Assas" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75006" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.842793" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.333457" }
+      }
+    ]
+  }
+}
