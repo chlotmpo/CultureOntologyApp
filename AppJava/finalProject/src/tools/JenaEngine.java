@@ -4,7 +4,9 @@
  */
 package tools;
  
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.util.List;
 
@@ -20,6 +22,13 @@ import com.hp.hpl.jena.reasoner.rulesys.Rule;
 import com.hp.hpl.jena.util.FileManager;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.StringWriter;
+
+
+import java.io.FileWriter;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 /**
  *
@@ -30,7 +39,7 @@ public class JenaEngine {
  
 
     /**
-     * Charger un modele a partir d'un fichier owl
+     * Charger un modèle à partir d'un fichier owl
      * @param args
      * + Entree: le chemin vers le fichier owl
      * + Sortie: l'objet model jena
@@ -93,14 +102,17 @@ public class JenaEngine {
      * @param args
      * + Entree: l'objet model Jena avec une chaine des caracteres SparQL
      * + Sortie: le resultat de la requete en String
+     * @throws IOException 
      */
-    static public String executeQuery(Model model, String queryString) {
+    static public String executeQuery(Model model, String queryString) throws IOException {
+    	
         Query query = QueryFactory.create(queryString);
+        
         // No reasoning
         // Execute the query and obtain results
         QueryExecution qe = QueryExecutionFactory.create(query, model);
-        ResultSet results = qe.execSelect();
-
+        
+        
         OutputStream output = new OutputStream() {
 
             private StringBuilder string = new StringBuilder();
@@ -115,17 +127,57 @@ public class JenaEngine {
                 return this.string.toString();
             }
         };
+        
+        if (query.isSelectType()) 
+        {         	
+        	ResultSet results = qe.execSelect();
+        	
+        	ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        	ResultSetFormatter.outputAsJSON(outputStream, results);
 
-        ResultSetFormatter.out(output, results, query);
-        return output.toString();
+        	String json = new String(outputStream.toByteArray());
+        	
+        	FileWriter fw = new FileWriter("C:\\Users\\mt181547\\OneDrive - De Vinci\\Bureau\\ttt\\outputjena.json");
+        	fw.write(json);
+        	System.out.println("Result saved as output.json");
+        	fw.close();
+        	
+        	
+        	Process p = Runtime.getRuntime().exec(new String[] {"C:\\Users\\mt181547\\Anaconda3\\envs\\Streamlit\\python.exe", "C:\\Users\\mt181547\\OneDrive - De Vinci\\Bureau\\ttt\\map.py"});
+        	System.out.println("map.html generated");
+        	return output.toString();
+        }
+        else if (query.isConstructType()) 
+        { 
+        	Model result = qe.execConstruct();
+        	result.write(output);
+        	return output.toString();
+        }
+        else if (query.isAskType()) 
+        { 
+        	boolean result = qe.execAsk();
+        	return String.valueOf(result);
+        }
+        else
+        { 
+        	Model result = qe.execDescribe();
+        	result.write(output);
+        	return output.toString();
+        }
+
+        
+
+     
+        
     }
     /**
      * Executer un fichier d'une requete
      * @param args
      * + Entree: l'objet model Jena avec une chaine des caracteres SparQL
      * + Sortie: le resultat de la requete en String
+     * @throws IOException 
      */
-    static public String executeQueryFile(Model model, String filepath) {
+    static public String executeQueryFile(Model model, String filepath) throws IOException {
         File queryFile = new File(filepath);
         // use the FileManager to find the input file
         InputStream in = FileManager.get().open(filepath);
@@ -148,8 +200,9 @@ public class JenaEngine {
      * @param args
      * + Entree: l'objet model Jena avec une chaine des caracteres SparQL
      * + Sortie: le resultat de la requete en String
+     * @throws IOException 
      */
-    static public String executeQueryFileWithParameter(Model model, String filepath, String parameter) {
+    static public String executeQueryFileWithParameter(Model model, String filepath, String parameter) throws IOException {
         File queryFile = new File(filepath);
         // use the FileManager to find the input file
         InputStream in = FileManager.get().open(filepath);
@@ -197,7 +250,7 @@ public class JenaEngine {
      * + Entree: 
      *      - l'objet model Jena
      *      - Namespace de l'ontologie
-     *      - Le nom de la premiÃ¨re Instance
+     *      - Le nom de la première Instance
      *      - Le nom de la propriete
      *      - Le nom de la deuxieme Instance
      * + Sortie: le resultat de la requete en String
@@ -268,7 +321,7 @@ public class JenaEngine {
      * + Entree: 
      *      - l'objet model Jena
      *      - Namespace de l'ontologie
-     *      - Le nom de de l'instance
+     *      - Le nom de l'Instance
      *      - Le nom de la propriete
      *      - La valeur
      * + Sortie: le resultat de la requete en String

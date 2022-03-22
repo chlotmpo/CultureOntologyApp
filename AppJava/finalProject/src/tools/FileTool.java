@@ -12,10 +12,10 @@ import java.io.IOException;
 /**
  *
  * @author DO.IT-SUDPARIS
- * Ce fichier sert a
+ * Ce fichier sert à
  * + Lire le contenu d'un fichier: getContents
- * + Entree: Objet File
- * + Sortie: une chaine de caractere
+ * + Entrée: Objet File
+ * + Sortie: une chaine de caractère
  */
 public class FileTool {
 
