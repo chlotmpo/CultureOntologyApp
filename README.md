@@ -80,7 +80,7 @@ The java program execute the query and store the result in a json file.
 Then, the python script is runned and produces the following map
 
 <p align="center">
-  <img src="https://github.com/chlotmpo/CultureOntologyApp/blob/24f6b6494c92ba0d9104813d20eb1ef1dd506b99/Map/Paris%20public%20libraries.png" width="220" />
+  <img src="https://github.com/chlotmpo/CultureOntologyApp/blob/24f6b6494c92ba0d9104813d20eb1ef1dd506b99/Map/Paris%20public%20libraries.png" width="1000" />
 </p>
 
 
