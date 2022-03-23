@@ -26,7 +26,7 @@ The map is stored in [*map.html*](https://github.com/chlotmpo/CultureOntologyApp
     - Make sure to add [**Jena**](http://www-inf.it-sudparis.eu/~gaaloulw/KM/Labs/Lab3/jena-2.6.2.zip) and [json](https://github.com/stleary/JSON-java) libraries to the project.
 + :two: Set up path in [JenaEngine.java](https://github.com/chlotmpo/CultureOntologyApp/blob/main/AppJava/finalProject/src/tools/JenaEngine.java):
     - Line 140: ```FileWriter("PATH\TO\ ... Map\outputjena.json");```
-    - Line 146: ```Runtime.getRuntime().exec(new String[] {"PATH\TO\python.exe", "PATH\TO\ ... \Map\map.py"});```
+    - Line 146: ```Runtime.getRuntime().exec(new String[] {"PATH\TO\python.exe", "PATH\TO\...\Map\map.py"});```
 + :three: Get back to Java IDE and run *main.java* file
 + :four: Select query in console
 + :five: Be patient and go to Map folder
