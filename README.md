@@ -76,19 +76,16 @@ SELECT ?name ?adress ?zipcode ?lat ?long WHERE {
   ?pl ex:hasLongitude ?long
 }
 ```
-The java program execute the query and store the result in a json file. 
+The java program execute the query and store the result in a json file. <br>
 Then, the python script is runned and produces the following map
-
 <p align="center">
   <img src="https://github.com/chlotmpo/CultureOntologyApp/blob/24f6b6494c92ba0d9104813d20eb1ef1dd506b99/Map/Paris%20public%20libraries.png" width="1000" />
 </p>
 
-
-
 ## :clap: Contributors
-Tempo Chloé - [@chlotmpo](https://github.com/chlotmpo)
-TRARIEUX Thibaud - [@thibaudtrx](https://github.com/thibaudtrx)
-THIBAUT Matthieu - [@MatthieuThib](https://github.com/MatthieuThib)
++ Tempo Chloé - [@chlotmpo](https://github.com/chlotmpo)
++ TRARIEUX Thibaud - [@thibaudtrx](https://github.com/thibaudtrx)
++ THIBAUT Matthieu - [@MatthieuThib](https://github.com/MatthieuThib)
 
 
 
