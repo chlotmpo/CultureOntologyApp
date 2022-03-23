@@ -1,0 +1,471 @@
+{
+  "head": {
+    "vars": [ "name" , "adress" , "zipcode" , "lat" , "long" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Sorbier" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "17 rue Sorbier" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75020" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.866162" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.392419" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Oscar Wilde" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "12 rue du TÃ©lÃ©graphe" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75020" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.871973" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.399841" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que HergÃ©" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "2-4 rue du DÃ©partement" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75019" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.885128" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.366971" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Couronnes Naguib Mahfouz" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "66 rue des Couronnes" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75020" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.870224" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.384959" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "MÃ©diathÃ¨que Musicale De Paris" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "8 porte Saint-Eustache" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75001" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.862829" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.345748" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Bureau des Bibliotheques et de la Lecture" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "55 RUE DES FRANCS-BOURGEOIS" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75004" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.859473" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.357605" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que AndrÃ©e Chedid" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "36-40 rue EmÃ©riau" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75015" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.849719" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.286142" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "MÃ©diathÃ¨que Marguerite Yourcenar" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "41 rue d Alleray" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75015" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.836775" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.303669" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Vandamme" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "80 avenue du Maine" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75014" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.838572" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.322042" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Drouot" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "11 rue Drouot" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75009" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.873382" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.34045" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Robert Sabatier" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "29 rue Hermel" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75018" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.891616" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.344508" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Valeyre" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "24 rue Rochechouard" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75009" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.877957" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.344924" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Courcelles" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "17 ter avenue Beaucour" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75008" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.877701" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.303011" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Louise Michel" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "39 rue des Haies" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75020" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.853846" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.402333" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Fonds patrimonial de l heure joyeuse" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "8 rue LÃ©on Schwartzenberg" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75010" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.875669" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.353655" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Forney" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "1 rue du Figuier" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75004" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.853424" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.359179" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que AmÃ©lie" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "164 rue de Grenelle" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75007" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.858067" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.308971" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que CrimÃ©e" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "42-44 rue Petit" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75019" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.884908" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.383031" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que de l heure joyeuse" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "6-12 rue des PrÃªtres saint-SÃ©verin" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75005" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.851892" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.344962" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BilbiothÃ¨que du cinÃ©ma FranÃ§ois Truffaut" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "4 rue du cinÃ©ma" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75001" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.860311" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.343633" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Diderot" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "42 avenue Daumesnil" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75012" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.84612" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.377684" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que du tourisme et des voyages" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "6 rue du Commandant Schloesing" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75116" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.8567" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.3508" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "MÃ©diathÃ¨que FranÃ§oise Sagan" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "8 rue LÃ©on Schwartzenberg" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75010" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.875669" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.353655" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Buffon" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "15 bis rue Buffon" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75005" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.842548" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.361878" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "MÃ©diathÃ¨que de la canopÃ©e - la fontaine" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "10 passage de la canopÃ©e" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75001" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.862216" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.347011" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Germaine Tillion" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "6 rue du commandant Schloesing" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75116" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.861826" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.28424" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Parmentier" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "20 bis avenue Parmentier" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75011" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.860093" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.378866" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que GlaciÃ¨re Marina TsvetaÃ¯eva" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "132 rue de la GlaciÃ¨re" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75013" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.827071" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.341995" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que FranÃ§ois Villon" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "81 boulevard de la Villette" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75010" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.877208" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.370793" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Batignolles" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "18 rue des Batignolles" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75017" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.884452" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.321898" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "MÃ©diathÃ¨que Marguerite Duras" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "115 rue de Bagnolet" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75020" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.859857" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.403354" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Fessart" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "6 rue Fessart" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75019" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.876219" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.388286" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Vaugirard" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "154 rue Lecourbe" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75015" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.841695" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.299342" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "MÃ©diathÃ¨que Edmond Rostand" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "11 rue Nicolas Chuquet" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75017" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.888389" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.30308" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Benjamin Rabier" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "141 avenue de Flandre" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75019" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.892693" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.379145" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Faidherbe" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "18-20 rue Faidherbe" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75011" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.851689" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.383815" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Lancry" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "11 rue de Lancry" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75010" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.869389" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.360243" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Musset" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "20 rue Musset" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75016" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.842381" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.263429" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Colette Vivier" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "6 rue Fourneyron" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75017" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.889909" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.319425" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Marguerite Audoux" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "10 rue Portefoin" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75003" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.863707" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.359964" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Italie" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "211-213 boulevard Vincent Auriol" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75013" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.830766" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.356722" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Mortier" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "109 boulevard Mortier" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75020" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.87159" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.408426" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BilBliothÃ¨que Assia Djebar" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "1 rue Reynaldo hahn" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75020" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.849256" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.412159" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Maurice Genevoix" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "19 rue Tristan Tzara" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75018" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.89502" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.363866" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Mohammed Arkoun" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "74-76 rue Mouffetard" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75005" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.842433" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.349685" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Vaclav Havel" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "26 esplanade Nathalie Sarraute" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75018" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.889131" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.362756" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "MÃ©diathÃ¨que HÃ©lÃ¨ne Berr" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "70 rue de Picpus" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75012" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.842554" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.397478" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Charlotte Delbo" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "2 passage des Petits PÃ¨res" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75002" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.866508" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.340428" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "MÃ©diathÃ¨que Jean-Pierre Melville" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "79 rue Nationale" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75013" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.826924" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.366472" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Saint-Simon" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "116 rue de Grenelle" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75007" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.856871" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.320027" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Goutte d or" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "2-4 rue Fleury" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75018" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.884511" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.354152" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Chaptal" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "26 rue Chaptal" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75009" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.881121" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.332286" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BilbliothÃ¨que des littÃ©ratures policiÃ¨res" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "48-50 rue du Cardinal Lemoine" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75005" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.84643" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.351181" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Saint-Eloi" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "23 rue du Colonel Rozanoff" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75012" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.845694" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.38716" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Gutenberg" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "8 rue de la Montagne d Aulas" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75015" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.840209" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.278682" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que AndrÃ© Malraux" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "112 rue de Rennes" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75006" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.847869" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.327529" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que de l HÃ´tel de Ville" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "5 rue de Lobau" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75004" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.856586" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.353225" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Jacqueline de Romilly" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "16 avenue de la Porte Montmartre" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75018" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.899393" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.336369" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Rainer Maria Rilke" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "88 ter boulevard du Port-Royal" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75005" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.839312" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.338798" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que historique de la Ville de Paris" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "24 rue PavÃ©e" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75004" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.857065" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.361696" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Georges Brassens" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "38 rue Gassendi" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75014" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.833712" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.325853" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Arthur Rimbaud" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "2 place Baudoyer" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75004" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.856164" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.355667" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Place Des FÃªtes" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "18 rue Jansen" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75019" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.879364" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.397625" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Europe" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "3 rue de Lisbonne" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75008" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.877801" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.317354" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que AimÃ© CÃ©saire" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "5 rue Ridder" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75014" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.831151" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.311839" }
+      } ,
+      {
+        "name": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "BibliothÃ¨que Claude LÃ©vi-Strauss" } ,
+        "adress": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "41 avenue de Flandre" } ,
+        "zipcode": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "75019" } ,
+        "lat": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "48.886547" } ,
+        "long": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "2.371204" }
+      }
+    ]
+  }
+}
