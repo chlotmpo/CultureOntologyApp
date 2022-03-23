@@ -39,7 +39,7 @@ public class JenaEngine {
  
 
     /**
-     * Charger un modèle à partir d'un fichier owl
+     * Charger un modÃ¨le Ã  partir d'un fichier owl
      * @param args
      * + Entree: le chemin vers le fichier owl
      * + Sortie: l'objet model jena
@@ -137,13 +137,13 @@ public class JenaEngine {
 
         	String json = new String(outputStream.toByteArray());
         	
-        	FileWriter fw = new FileWriter("C:\\Users\\mt181547\\OneDrive - De Vinci\\Bureau\\ttt\\outputjena.json");
+        	FileWriter fw = new FileWriter("ABSOLUTE\PATH\TO\...Map\output.json");
         	fw.write(json);
         	System.out.println("Result saved as output.json");
         	fw.close();
         	
         	
-        	Process p = Runtime.getRuntime().exec(new String[] {"C:\\Users\\mt181547\\Anaconda3\\envs\\Streamlit\\python.exe", "C:\\Users\\mt181547\\OneDrive - De Vinci\\Bureau\\ttt\\map.py"});
+        	Process p = Runtime.getRuntime().exec(new String[] {"PATH\TO\python.exe", "ABSOLUTE\PATH\TO\...Map\map.py"});
         	System.out.println("map.html generated");
         	return output.toString();
         }
@@ -250,7 +250,7 @@ public class JenaEngine {
      * + Entree: 
      *      - l'objet model Jena
      *      - Namespace de l'ontologie
-     *      - Le nom de la première Instance
+     *      - Le nom de la premiÃ¨re Instance
      *      - Le nom de la propriete
      *      - Le nom de la deuxieme Instance
      * + Sortie: le resultat de la requete en String
