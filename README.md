@@ -19,7 +19,6 @@ This project is written in java and python:
 - Python -> script loads the output.json file just generated and build a map corresponding to the query (the map is stored in [*map.html*](https://github.com/chlotmpo/CultureOntologyApp/blob/main/Map/map.html))
 
 ## :mag: How to use it
-
 + :one: Set up the environment:
     - Open the project in a Java IDE (Eclipse for example)
     - Make sure to add [**Jena**](http://www-inf.it-sudparis.eu/~gaaloulw/KM/Labs/Lab3/jena-2.6.2.zip) and [**json**](https://github.com/stleary/JSON-java) libraries to the project.
@@ -57,7 +56,6 @@ When running the *main.java* file, the following menu appears:
 + 11 - Find the public libraries in the city you want
 + 12 - Find the higher education libraries in the city you want
 
-
 ## Example
 Let's take the public libraries of Paris for example.
 The user choose the Query 11 and enters `Paris`
@@ -81,12 +79,16 @@ SELECT ?name ?adress ?zipcode ?lat ?long WHERE {
 The java program execute the query and store the result in a json file. 
 Then, the python script is runned and produces the following map
 
-MAP HERE
+<p align="center">
+  <img src="https://github.com/chlotmpo/CultureOntologyApp/blob/24f6b6494c92ba0d9104813d20eb1ef1dd506b99/Map/Paris%20public%20libraries.png" width="220" />
+</p>
+
+
 
 ## :clap: Contributors
-TEMPO Chloé @chlotmpo
-TRARIEUX Thibaud @thibaudtrx
-THIBAUT Matthieu @MatthieuThib
+Tempo Chloé - [@chlotmpo](https://github.com/chlotmpo)
+TRARIEUX Thibaud - [@thibaudtrx](https://github.com/thibaudtrx)
+THIBAUT Matthieu - [@MatthieuThib](https://github.com/MatthieuThib)
 
 
 
