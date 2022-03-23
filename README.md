@@ -83,13 +83,6 @@ Then, the python script is runned and produces the following map
 </p>
 
 ## :clap: Contributors
-+ Tempo Chloé - [@chlotmpo](https://github.com/chlotmpo)
++ TEMPO Chloé - [@chlotmpo](https://github.com/chlotmpo)
 + TRARIEUX Thibaud - [@thibaudtrx](https://github.com/thibaudtrx)
 + THIBAUT Matthieu - [@MatthieuThib](https://github.com/MatthieuThib)
-
-
-
-
-
-
-
