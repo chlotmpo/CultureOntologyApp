@@ -24,7 +24,7 @@ This project is written in java and python:
     - Make sure to add [**Jena**](http://www-inf.it-sudparis.eu/~gaaloulw/KM/Labs/Lab3/jena-2.6.2.zip) and [**json**](https://github.com/stleary/JSON-java) libraries to the project.
 + :two: Set up path in [*JenaEngine.java*](https://github.com/chlotmpo/CultureOntologyApp/blob/main/AppJava/finalProject/src/tools/JenaEngine.java):
     - [Line 140](https://github.com/chlotmpo/CultureOntologyApp/blob/main/AppJava/finalProject/src/tools/JenaEngine.java#L140): ```FileWriter("ABSOLUTE\PATH\TO\...Map\output.json");```
-    - [Line 146]((https://github.com/chlotmpo/CultureOntologyApp/blob/main/AppJava/finalProject/src/tools/JenaEngine.java#L146): ```Runtime.getRuntime().exec(new String[] {"PATH\TO\python.exe", "ABSOLUTE\PATH\TO\...Map\map.py"});```
+    - [Line 146](https://github.com/chlotmpo/CultureOntologyApp/blob/main/AppJava/finalProject/src/tools/JenaEngine.java#L146): ```Runtime.getRuntime().exec(new String[] {"PATH\TO\python.exe", "ABSOLUTE\PATH\TO\...Map\map.py"});```
 + :three: Set up path in [*map.py*](https://github.com/chlotmpo/CultureOntologyApp/blob/main/Map/map.py):
     - [Line 5](https://github.com/chlotmpo/CultureOntologyApp/blob/main/Map/map.py#L5): ```data = json.load(open(r"ABSOLUTE\PATH\TO\...Map\output.json"))```
     - [Line 44](https://github.com/chlotmpo/CultureOntologyApp/blob/main/Map/map.py#L44): ```map.save(r"ABSOLUTE\PATH\TO\...Map\map.html")```
