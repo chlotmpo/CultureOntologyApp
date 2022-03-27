@@ -83,7 +83,7 @@ SELECT ?name ?adress ?zipcode ?lat ?long WHERE {
 The java program execute the query and store the result in a json file. <br>
 Then, the python script is runned and produces the following map
 <p align="center">
-  <img src="Map/ParisPublicLibraries.png" width="1000" />
+  <img src="Map/ParisLibraries.png" width="1000" />
 </p>
 
 
