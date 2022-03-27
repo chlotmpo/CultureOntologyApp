@@ -43,6 +43,8 @@ public class Main {
 		System.out.println("10 - Find the musees in the city you want");
 		System.out.println("11 - Find the public libraries in the city you want");
 		System.out.println("12 - Find the higher education libraries in the city you want");
+		System.out.println("13 - Display the list of travel achieved by the traveller you want");
+		System.out.println("14 - Observe the list of the POI visited by the traveller you want");
 
 
 		
@@ -105,6 +107,26 @@ public class Main {
 		System.out.println("Your selected city is : ");
 		city = sc2.next();
 		return city;
+	}
+	
+	
+	public static String SelectName() {
+		String name;
+		System.out.println("Here are all the name of the traveller registered : ");
+		System.out.println("1 - Paul");
+		System.out.println("2 - Marie");
+		System.out.println("3 - Alain");
+		System.out.println("4 - Jeanne");
+		System.out.println("5 - Marin");
+		System.out.println("6 - Claude");
+		System.out.println("7 - Kevin");
+		System.out.println("8 - Lila");
+		System.out.println("9 - Benjamin");
+		System.out.println("10 - Ginette");
+		Scanner sc4 = new Scanner (System.in);
+		System.out.println("Your selected traveller is : (enter name with first letter in majuscule)");
+		name = sc4.next();
+		return name;
 	}
 	
 	
@@ -414,11 +436,55 @@ public class Main {
 					QueryModel();	
 					
 					break;
+				case 13 : 
+					System.out.println("Option 13 is selected.");
+					System.out.println("Display the list of travel achieved by the traveller you want");
+					String name = SelectName();
+					query = "PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>\r\n"
+							+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
+							+ "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\r\n"
+							+ "PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>\r\n"
+							+ "\r\n"
+							+ "\r\n"
+							+ "SELECT ?departure ?arrival ?duration WHERE {\r\n"
+							+ "  ?traveller rdf:type ex:Traveller .\r\n"
+							+ "  ?traveller ex:Name " + "'" + name + "'" + " .\r\n"
+							+ "  ?traveller ex:Travel ?travel .\r\n"
+							+ "  ?travel ex:Departure ?departure .\r\n"
+							+ "  ?travel ex:Arrival ?arrival .\r\n"
+							+ "  ?travel ex:Duration ?duration \r\n"
+							+ "}";
+					WriteFile(query);
+					QueryModel();	
+					
+					break;
+				case 14 : 
+					System.out.println("Option 14 is selected.");
+					System.out.println("Observe the list of the POI visited by the traveller you want");
+					name = SelectName();
+					query = "PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>\r\n"
+							+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
+							+ "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\r\n"
+							+ "PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>\r\n"
+							+ "\r\n"
+							+ "\r\n"
+							+ "SELECT DISTINCT ?name ?city ?lat ?long WHERE {\r\n"
+							+ "  ?traveller rdf:type ex:Traveller .\r\n"
+							+ "  ?traveller ex:Name " + "'" + name + "'" + " .\r\n"
+							+ "  ?traveller ex:Visit ?poi .\r\n"
+							+ "  ?poi ex:hasName ?name .\r\n"
+							+ "  ?poi ex:hasCommune ?city .\r\n"
+							+ "  ?poi ex:hasLatitude ?lat .\r\n"
+							+ "  ?poi ex:hasLongitude ?long . \r\n"
+							+ "}";
+					WriteFile(query);
+					QueryModel();			
+					break;
 				default :
 					break;
 				}
 			}
-			while(userSelected > 12 || userSelected < 1);
+			while(userSelected > 14 || userSelected < 1);
 			System.out.println("Do you want to test another query ?");
 			System.out.println("1 - Yes");
 			System.out.println("2 - No");

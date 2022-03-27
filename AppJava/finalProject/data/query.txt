@@ -4,12 +4,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>
 
 
-SELECT ?name ?adress ?zipcode ?lat ?long WHERE {
-  ?musee rdf:type ex:Musee .
-  ?musee ex:hasName ?name .
-  ?musee ex:hasCommune 'Paris' .
-  ?musee ex:hasAdress ?adress .
-  ?musee ex:hasZipCode ?zipcode .
-  ?musee ex:hasLatitude ?lat .
-  ?musee ex:hasLongitude ?long
+SELECT ?departure ?arrival ?duration WHERE {
+  ?traveller rdf:type ex:Traveller .
+  ?traveller ex:Name 'Lila' .
+  ?traveller ex:Travel ?travel .
+  ?travel ex:Departure ?departure .
+  ?travel ex:Arrival ?arrival .
+  ?travel ex:Duration ?duration 
 }
