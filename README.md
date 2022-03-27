@@ -55,8 +55,12 @@ When running the *main.java* file, the following menu appears:
 + 10 - Find the musees in the city you want
 + 11 - Find the public libraries in the city you want
 + 12 - Find the higher education libraries in the city you want
++ 13 - Display the list of travel achieved by the traveller you want
++ 14 - Observe the list of the POI visited by the traveller you want
 
 ## Example
+
+### Public Libraries of Paris
 Let's take the public libraries of Paris for example.
 The user choose the Query 11 and enters `Paris`
 The following SPARQL query is written in *query.txt*
@@ -79,8 +83,58 @@ SELECT ?name ?adress ?zipcode ?lat ?long WHERE {
 The java program execute the query and store the result in a json file. <br>
 Then, the python script is runned and produces the following map
 <p align="center">
-  <img src="https://github.com/chlotmpo/CultureOntologyApp/blob/24f6b6494c92ba0d9104813d20eb1ef1dd506b99/Map/Paris%20public%20libraries.png" width="1000" />
+  <img src="Map/Paris%20public%20libraries.png" width="1000" />
 </p>
+
+
+### POI visited by a Traveller
+The user choose the Query 14 and enters `Marie`
+The following SPARQL query is written in *query.txt*
+```SPARQL
+PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>
+
+SELECT DISTINCT ?name ?city ?lat ?long WHERE {
+  ?traveller rdf:type ex:Traveller .
+  ?traveller ex:Name 'Marie' .
+  ?traveller ex:Visit ?poi .
+  ?poi ex:hasName ?name .
+  ?poi ex:hasCommune ?city .
+  ?poi ex:hasLatitude ?lat .
+  ?poi ex:hasLongitude ?long .
+}";
+```
+The java program execute the query and store the result in a json file. <br>
+Then, the python script is runned and produces the following map
+<p align="center">
+  <img src="Map/POIVisitedByMarie.png" width="1000" />
+</p>
+
+Now, the user enters `Alain`
+The following SPARQL query is written in *query.txt*
+```SPARQL
+PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://www.semanticweb.org/mt181547/ontologies/2022/2/untitled-ontology-13#>
+
+SELECT DISTINCT ?name ?city ?lat ?long WHERE {
+  ?traveller rdf:type ex:Traveller .
+  ?traveller ex:Name 'Marie' .
+  ?traveller ex:Visit ?poi .
+  ?poi ex:hasName ?name .
+  ?poi ex:hasCommune ?city .
+  ?poi ex:hasLatitude ?lat .
+  ?poi ex:hasLongitude ?long .
+}";
+```
+Again, the following map is generated
+<p align="center">
+  <img src="Map/POIVisitedByAlain.png" width="1000" />
+</p>
+
 
 ## :clap: Contributors
 + TEMPO Chloé - [@chlotmpo](https://github.com/chlotmpo)
